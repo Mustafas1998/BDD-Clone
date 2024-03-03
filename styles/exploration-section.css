@@ -1,0 +1,30 @@
+.exploration-section {
+    height: 600px;
+    width: 1500px;
+    background-image: url('../Art/Shared-Space-at-BDD.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+
+  
+.exploration-section.center-img{
+    position: absolute;
+    
+    width: 300px;
+    height: 750px;
+  }
+  
+  
+  
+  h1{
+    color: white;
+    font-size: xx-large;
+    margin-left: 190px;
+    font-weight: 3000;
+    
+  }
