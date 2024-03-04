@@ -1,21 +1,16 @@
-.exploration-section {
+.preferential-section {
     height: 600px;
     width: 1500px;
-    background-image: url('../Art/Shared-Space-at-BDD.png');
+    background-image: url('../Art/parallax-light.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     display: flex;
-  }
-  
-.exploration-section.center-img{
-    position: absolute;
     
-    width: 300px;
-    height: 750px;
   }
+
   
   h1{
     color: white;
@@ -24,3 +19,12 @@
     font-weight: 3000;
     
   }
+
+.fig :last-child{
+    margin-left: -300px;
+    align-items: center;
+    justify-content: center;
+    padding-left: +50px;
+    margin-top: +200px;
+    
+}
