@@ -1,0 +1,15 @@
+@media (max-width: 480px) {
+    .Log-In form {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .Log-In form {
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+}
